@@ -85,3 +85,17 @@ html, body, input, textarea, button, select {
 .hover-pointer {
     cursor: pointer;
 }
+
+/* Add this after your existing styles */
+.linear-gradient-bg {
+  background: linear-gradient(171deg, 
+    rgba(255, 255, 255, 1) 0%,
+    rgba(240, 249, 255, 0.5) 50%,
+    rgba(230, 244, 255, 0.8) 100%
+  );
+}
+
+/* Add this to your existing styles */
+body.menu-open {
+  overflow: hidden;
+}

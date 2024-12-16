@@ -25,6 +25,9 @@ export default {
         },
         'gradient-start': '#2563eb',
         'gradient-end': '#9333ea',
+        'navy': {
+        900: '#1a1f36',
+      }
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
