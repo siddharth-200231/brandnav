@@ -9,12 +9,11 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="min-h-screen linear-gradient-bg">
-      <Hero />
-      <main className="w-full">
-        {/* First section with stats */}
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
-          <div className="text-center">
+    <div className="min-h-screen bg-white">
+      <main>
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Hero Section */}
+          <div className="pt-20 pb-16 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-navy-900 mb-6">
               <span className="block">Weapons to Grow</span>
               <span className="block">Your Business</span>
@@ -195,19 +194,19 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Modern companies section */}
-            <div className="text-center mt-20">
-              <p className="text-lg text-gray-600 mb-8">
-                Modern companies are using BrandNav
-              </p>
-              <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-                <img src="/sentry-ecom.png" alt="Sentry Ecom" className="h-8" />
-                <img src="/xlr-media.png" alt="XLR Media" className="h-8" />
-                <img src="/utrech-clerk.png" alt="Utrech Clerk" className="h-8" />
-                <img src="/cg.png" alt="CG" className="h-8" />
-                <img src="/acexmedia.png" alt="Acexmedia" className="h-8" />
-              </div>
+          {/* Modern companies section */}
+          <div className="text-center mt-20">
+            <p className="text-lg text-gray-600 mb-8">
+              Modern companies are using BrandNav
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+              <img src="/sentry-ecom.png" alt="Sentry Ecom" className="h-8" />
+              <img src="/xlr-media.png" alt="XLR Media" className="h-8" />
+              <img src="/utrech-clerk.png" alt="Utrech Clerk" className="h-8" />
+              <img src="/cg.png" alt="CG" className="h-8" />
+              <img src="/acexmedia.png" alt="Acexmedia" className="h-8" />
             </div>
           </div>
 
@@ -215,10 +214,10 @@ export default function Home() {
           <WeaponSection />
           <LeadsDatabase />
         </div>
-        
+
         {/* Full-width sections */}
         <div className="w-full">
-        <PricingSection />
+          <PricingSection />
           <WhyBrandNav />
           <PinpointCustomer />
           <FixDataAccuracy />
