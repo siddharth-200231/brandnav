@@ -3,10 +3,9 @@
 const PricingSection = () => {
   const features = [
     "All BrandNav features included",
-    "200 Screener credits",
-    "25 Enricher credits",
-    "100 Verifier credits",
-    "Monitor your blacklists",
+    "200 Screener credits per month",
+    "25 Enricher credits per month",
+    "Pinpoint ideal prospects",
     "Chat support with real humans"
   ];
 
@@ -42,7 +41,7 @@ const PricingSection = () => {
                   <span className="text-[#4F566B]">•</span>
                   <div className="flex items-center">
                     <span className="text-yellow-400">★★★★★</span>
-                    <span className="ml-1">4.8/5 G2 Rating</span>
+                    <span className="ml-1">4.8/5 G2 Ratings</span>
                   </div>
                 </div>
               </div>
@@ -60,7 +59,7 @@ const PricingSection = () => {
 
               <div className="mt-8 text-center">
                 <div className="flex justify-center -space-x-2 mb-2">
-                  {Array(6).fill(0).map((_, i) => (
+                  {Array(5).fill(0).map((_, i) => (
                     <div key={i} className="w-8 h-8 rounded-full bg-gray-100 border-2 border-white" />
                   ))}
                   <div className="w-8 h-8 rounded-full bg-[#F9FAFB] border-2 border-white flex items-center justify-center">
@@ -68,7 +67,7 @@ const PricingSection = () => {
                   </div>
                 </div>
                 <div className="text-sm text-[#4F566B]">
-                  Trusted by 10,000+ users
+                  These people are already using BrandNav. When will YOU?
                 </div>
               </div>
             </div>

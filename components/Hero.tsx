@@ -9,7 +9,7 @@ const Hero = () => {
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-poppins">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-poppins bg-gradient-to-br from-white to-blue-50">
       <nav className="flex items-center justify-between py-4 sm:py-6">
         {/* Logo */}
         <div className="flex-shrink-0">
@@ -85,6 +85,22 @@ const Hero = () => {
           </Link>
         </div>
       </nav>
+
+      {/* Hero Content */}
+      <div className="text-center py-20">
+        <h1 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4">
+          Weapons to grow your Business
+        </h1>
+        <p className="text-base sm:text-lg text-gray-600 mb-6">
+          Turbocharge your business growth. Our products help ignite sales and entrepreneurship.
+        </p>
+        <button className="px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors text-base font-medium">
+          Start for free
+        </button>
+        <div className="mt-3 text-xs text-gray-500">
+          No credit card required | ★★★★★ 4.8/5 G2 Rating
+        </div>
+      </div>
 
       {/* Mobile Navigation Menu */}
       <div 
