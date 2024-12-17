@@ -22,7 +22,7 @@ const WhyBrandNav = () => {
                 <img
                   src="/dashboard.png"
                   alt="Dashboard Preview"
-                  className="w-full rounded-2xl"
+                  className="w-fit rounded-2xl"
                 />
               </div>
             </div>

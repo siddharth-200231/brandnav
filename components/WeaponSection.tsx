@@ -71,9 +71,9 @@ const WeaponSection = () => {
         </div>
         <div className="lg:w-1/2">
           <img 
-            src="/path-to-your-dashboard-image.png" 
+            src="/dashboardimg.png" 
             alt="Dashboard Preview" 
-            className="w-full"
+            className="w-full max-h-fit max-w-fit mx-auto"
           />
         </div>
       </div>
