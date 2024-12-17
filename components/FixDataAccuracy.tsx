@@ -33,7 +33,7 @@ const FixDataAccuracy = () => {
                 <img
                   src="/before.png"
                   alt="Before data accuracy"
-                  className="w-full rounded-2xl relative z-0"
+                  className="w-fit h-fit rounded-2xl relative z-0"
                 />
               </div>
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-[#FF4D4D] font-medium bg-white px-6 py-1 rounded-t-2xl shadow-sm">

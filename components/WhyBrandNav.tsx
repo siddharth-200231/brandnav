@@ -121,9 +121,9 @@ const WhyBrandNav = () => {
             <div className="absolute left-0 bottom-0 w-[200px] h-[200px] bg-blue-50 rounded-full opacity-50 blur-3xl" />
             <div className="relative z-10 w-full">
               <img
-                src="/fresh-data-preview.png"
+                src="/fresh_updates.png"
                 alt="Fresh Data Updates"
-                className="w-full rounded-2xl"
+                className="w-fit h-fit rounded-2xl"
               />
             </div>
           </div>
@@ -138,9 +138,9 @@ const WhyBrandNav = () => {
               <div className="absolute right-0 bottom-0 w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] bg-blue-50 rounded-full opacity-50 blur-3xl" />
               <div className="relative z-10 w-full">
                 <img
-                  src="/advanced-search-preview.png"
+                  src="/filters.png"
                   alt="Advanced Search Preview"
-                  className="w-full rounded-2xl"
+                  className="w-fit h-fit rounded-2xl"
                   loading="lazy"
                 />
               </div>
