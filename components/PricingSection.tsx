@@ -28,7 +28,7 @@ const PricingSection = () => {
           <div className="max-w-xl mx-auto lg:max-w-none">
             <div className="bg-white rounded-3xl p-8 text-navy-900">
               <div className="flex items-center justify-center mb-6">
-                <img src="/gift-icon.png" alt="Gift" className="w-16 h-16" />
+                <img src="/gift.png" alt="Gift" className="w-fi h-fit" />
               </div>
               <div className="text-center mb-6">
                 <div className="text-[#4F566B] mb-1">Free</div>
