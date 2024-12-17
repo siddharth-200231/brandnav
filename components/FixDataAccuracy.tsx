@@ -1,9 +1,9 @@
 const FixDataAccuracy = () => {
   return (
-    <section className="w-full py-20 bg-[#FAFBFF]">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-[40px] font-bold text-[#1E1B4B]">
+    <section className="w-full py-16 bg-[#FAFBFF]">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#1E1B4B]">
             Fix data accuracy problems
             <br />
             with BrandNav
@@ -11,21 +11,21 @@ const FixDataAccuracy = () => {
         </div>
 
         {/* Before & After Images */}
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-16 mb-16">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-8 mb-10">
           {/* Before */}
-          <div className="relative w-full max-w-[600px]">
-            <div className="absolute -left-8 -top-8 w-[300px] h-[300px] bg-[#FFE4E4] rounded-full opacity-30 blur-[80px]" />
+          <div className="relative w-full max-w-[500px]">
+            <div className="absolute -left-6 -top-6 w-[250px] h-[250px] bg-[#FFE4E4] rounded-full opacity-30 blur-[60px]" />
             <div className="relative">
-              <div className="bg-[#FFF8F8] rounded-[32px] p-8">
+              <div className="bg-[#FFF8F8] rounded-[24px] p-6">
                 {/* Failed Delivery Notifications */}
-                <div className="absolute -top-6 left-12 bg-white rounded-xl shadow-md p-3 rotate-[-6deg] z-10">
-                  <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 bg-[#FF4D4D] rounded-full flex items-center justify-center">
-                      <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none">
+                <div className="absolute -top-4 left-10 bg-white rounded-xl shadow-md p-2 rotate-[-6deg] z-10">
+                  <div className="flex items-center gap-1">
+                    <div className="w-5 h-5 bg-[#FF4D4D] rounded-full flex items-center justify-center">
+                      <svg className="w-3 h-3 text-white" viewBox="0 0 24 24" fill="none">
                         <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
                       </svg>
                     </div>
-                    <span className="text-sm font-medium">Failed Delivery</span>
+                    <span className="text-xs font-medium">Failed Delivery</span>
                   </div>
                   <div className="mt-1 text-xs text-[#FF4D4D]">Outdated Emails</div>
                 </div>
@@ -36,21 +36,21 @@ const FixDataAccuracy = () => {
                   className="w-full rounded-2xl relative z-0"
                 />
               </div>
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-[#FF4D4D] font-medium bg-white px-8 py-2 rounded-t-2xl shadow-sm">
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-[#FF4D4D] font-medium bg-white px-6 py-1 rounded-t-2xl shadow-sm">
                 Before
               </div>
             </div>
           </div>
 
           {/* After */}
-          <div className="relative w-full max-w-[600px]">
-            <div className="absolute -right-8 -top-8 w-[300px] h-[300px] bg-[#E4F2FF] rounded-full opacity-30 blur-[80px]" />
+          <div className="relative w-full max-w-[500px]">
+            <div className="absolute -right-6 -top-6 w-[250px] h-[250px] bg-[#E4F2FF] rounded-full opacity-30 blur-[60px]" />
             <div className="relative">
-              <div className="bg-[#F8FBFF] rounded-[32px] p-8">
+              <div className="bg-[#F8FBFF] rounded-[24px] p-6">
                 {/* Verified Badge */}
-                <div className="absolute -top-4 right-12 bg-white rounded-xl shadow-md p-2 z-10">
-                  <div className="w-8 h-8 bg-[#0D6EFD] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                <div className="absolute -top-3 right-10 bg-white rounded-xl shadow-md p-1 z-10">
+                  <div className="w-6 h-6 bg-[#0D6EFD] bg-opacity-10 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                       <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" fill="currentColor"/>
                     </svg>
                   </div>
@@ -62,7 +62,7 @@ const FixDataAccuracy = () => {
                   className="w-full rounded-2xl relative z-0"
                 />
               </div>
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-[#0D6EFD] font-medium bg-white px-8 py-2 rounded-t-2xl shadow-sm">
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-[#0D6EFD] font-medium bg-white px-6 py-1 rounded-t-2xl shadow-sm">
                 After
               </div>
             </div>
@@ -70,13 +70,13 @@ const FixDataAccuracy = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mb-32">
-          <button className="bg-[#0D6EFD] text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-base font-medium">
+        <div className="text-center mb-24">
+          <button className="bg-[#0D6EFD] text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
             Grab free leads
           </button>
-          <div className="mt-4 flex items-center justify-center gap-4 text-sm text-[#6B7280]">
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none">
+          <div className="mt-3 flex items-center justify-center gap-3 text-xs text-[#6B7280]">
+            <div className="flex items-center gap-1">
+              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none">
                 <rect width="24" height="24" rx="12" fill="#F3F4F6"/>
                 <path d="M7 13l3 3L17 8" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -91,19 +91,19 @@ const FixDataAccuracy = () => {
         </div>
 
         {/* Who is using section */}
-        <div className="mt-32 text-center">
-          <h2 className="text-[40px] font-bold text-[#1E1B4B] mb-4">
+        <div className="mt-20 text-center">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#1E1B4B] mb-2">
             Who is using BrandNav?
           </h2>
-          <p className="text-[#6B7280] text-lg mb-16">
-            BrandNav has become irreplaceable tool for businesses
+          <p className="text-[#6B7280] text-sm mb-10">
+            BrandNav has become an irreplaceable tool for businesses
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" fill="currentColor"/>
                   </svg>
                 ),
@@ -112,7 +112,7 @@ const FixDataAccuracy = () => {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
                   </svg>
                 ),
@@ -121,16 +121,16 @@ const FixDataAccuracy = () => {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" fill="currentColor"/>
                   </svg>
                 ),
                 title: "Service Providers",
-                description: "Service providers are using BrandNav to locate accurate email addresses build a list of contacts, and improve the efficiency of their sales process."
+                description: "Service providers use BrandNav to locate accurate emails, build contact lists, and improve sales efficiency."
               },
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"/>
                   </svg>
                 ),
@@ -139,7 +139,7 @@ const FixDataAccuracy = () => {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="currentColor"/>
                   </svg>
                 ),
@@ -148,7 +148,7 @@ const FixDataAccuracy = () => {
               },
               {
                 icon: (
-                  <svg className="w-8 h-8 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
+                  <svg className="w-6 h-6 text-[#0D6EFD]" viewBox="0 0 24 24" fill="none">
                     <path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" fill="currentColor"/>
                   </svg>
                 ),
@@ -156,24 +156,24 @@ const FixDataAccuracy = () => {
                 description: "Investors are using BrandNav to quickly find and verify contact information for key executives and decision-makers and streamline their workflow."
               }
             ].map((item, index) => (
-              <div key={index} className="text-center p-6">
-                <div className="w-16 h-16 bg-[#0D6EFD] bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <div key={index} className="text-center p-4">
+                <div className="w-12 h-12 bg-[#0D6EFD] bg-opacity-10 rounded-2xl flex items-center justify-center mx-auto mb-3">
                   {item.icon}
                 </div>
-                <h3 className="text-[#1E1B4B] text-xl font-bold mb-3">{item.title}</h3>
-                <p className="text-[#6B7280] text-base leading-relaxed">{item.description}</p>
+                <h3 className="text-[#1E1B4B] text-lg font-bold mb-2">{item.title}</h3>
+                <p className="text-[#6B7280] text-sm leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
 
           {/* Bottom CTA */}
-          <div className="mt-16">
-            <button className="bg-[#0D6EFD] text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-base font-medium">
+          <div className="mt-12">
+            <button className="bg-[#0D6EFD] text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
               Grab free leads
             </button>
-            <div className="mt-4 flex items-center justify-center gap-4 text-sm text-[#6B7280]">
-              <div className="flex items-center gap-2">
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none">
+            <div className="mt-3 flex items-center justify-center gap-3 text-xs text-[#6B7280]">
+              <div className="flex items-center gap-1">
+                <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none">
                   <rect width="24" height="24" rx="12" fill="#F3F4F6"/>
                   <path d="M7 13l3 3L17 8" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
