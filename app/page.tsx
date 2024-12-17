@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-br from-blue-200 via-white to-blue-100">
       <main>
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}

@@ -25,7 +25,7 @@ const WeaponSection = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gradient-to-br from-blue-200 via-white to-blue-100">
       <div className="text-center mb-16">
         <h2 className="text-3xl sm:text-4xl font-bold text-indigo-900 mb-4">
           Choose Your Weapon

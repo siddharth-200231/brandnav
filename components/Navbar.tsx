@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white z-50 shadow-md">
+    <nav className="bg-gradient-to-br from-blue-200 via-white to-blue-100 shadow-md">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
