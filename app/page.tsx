@@ -198,15 +198,15 @@ export default function Home() {
 
           {/* Modern companies section */}
           <div className="text-center mt-20">
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-500 mb-12">
               Modern companies are using BrandNav
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <img src="/sentry-ecom.png" alt="Sentry Ecom" className="h-8" />
-              <img src="/xlr-media.png" alt="XLR Media" className="h-8" />
-              <img src="/utrech-clerk.png" alt="Utrech Clerk" className="h-8" />
-              <img src="/cg.png" alt="CG" className="h-8" />
-              <img src="/acexmedia.png" alt="Acexmedia" className="h-8" />
+            <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-8">
+              <img src="/sentry.png" alt="Sentry Ecom" className="h-6 grayscale" />
+              <img src="/xlr.png" alt="XLR Media" className="h-6 grayscale" />
+              <img src="/utreach.png" alt="Utrech Clerk" className="h-6 grayscale" />
+              <img src="/og.png" alt="CG" className="h-6 grayscale" />
+              <img src="/acexmedia.png" alt="Acexmedia" className="h-6 grayscale" />
             </div>
           </div>
 
