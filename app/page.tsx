@@ -6,6 +6,8 @@ import WhyBrandNav from "@/components/WhyBrandNav";
 import PinpointCustomer from "@/components/PinpointCustomer";
 import FixDataAccuracy from "@/components/FixDataAccuracy";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -221,8 +223,12 @@ export default function Home() {
           <WhyBrandNav />
           <PinpointCustomer />
           <FixDataAccuracy />
+          <Reviews />
+          <FAQ />
           <Testimonials />
+          
         </div>
+       
       </main>
     </div>
   );
